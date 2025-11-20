@@ -1,0 +1,42 @@
+BeginNow <<<
+
+Numbo x glue 10!
+Numbo y glue 20!
+Floatz f glue 12.55!
+Trutho flag glue Yep!
+
+SayIt "Values:"!
+SayIt x ? y ? f!
+
+MaybeIf x biggerish y <<<
+    SayIt "x is bigger"!
+>>> Otherwise <<<
+    SayIt "y is bigger"!
+>>>
+
+LoopDee (x smallerish y) <<<
+    x grow++!
+    SayIt x!
+>>>
+
+RoundyGo (Numbo i glue 0 ~ i smallerish 5 ~ i grow++) <<<
+    SayIt i!
+>>>
+
+DoStuff addThem ~ Numbo a ~ Numbo b <<<
+    SendBack a plusy b!
+>>>
+
+Numbo result glue addThem ~ 5 ~ 7!
+SayIt result!
+
+SnapOut!
+
+StopNow >>>
+
+### ERRORS BELOW ###
+
+Numbo 9x glue 5!   // invalid identifier (starts with number)
+Wordy msg glue "Unclosed string!
+shrink--grow++     // illegal token sequence
+@illegalToken       // illegal character
