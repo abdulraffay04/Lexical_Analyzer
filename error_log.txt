@@ -1,0 +1,13 @@
+--- Lexical Analysis Error Log ---
+Line 17: Lexical ERROR - Illegal character '('
+Line 17: Lexical ERROR - Illegal character ')'
+Line 22: Lexical ERROR - Illegal character '('
+Line 22: Lexical ERROR - Illegal character ')'
+Line 37: Lexical ERROR - Illegal character '#'
+Line 37: Lexical ERROR - Illegal character '#'
+Line 37: Lexical ERROR - Illegal character '#'
+Line 37: Lexical ERROR - Illegal character '#'
+Line 37: Lexical ERROR - Illegal character '#'
+Line 37: Lexical ERROR - Illegal character '#'
+Line 40: Lexical ERROR - Illegal character '"'
+Line 42: Lexical ERROR - Illegal character '@'
